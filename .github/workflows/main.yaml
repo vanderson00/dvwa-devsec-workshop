@@ -78,4 +78,5 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: | 
           az group delete -n ${{ vars.AZ_ACI_DNS_PREFIX }}-rg -y
+          # Actions Workflow setup completed
   
