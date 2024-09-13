@@ -1,3 +1,4 @@
+ # Actions Workflow setup completed
 name: 🚀🚀 Basic 👨‍💻Dev - Sec🪲 Ops📉  Workflow 🚀🚀  
 on:
   workflow_run:
@@ -78,5 +79,5 @@ jobs:
         azcliversion: 2.30.0
         inlineScript: | 
           az group delete -n ${{ vars.AZ_ACI_DNS_PREFIX }}-rg -y
-          # Actions Workflow setup completed
+    
   
